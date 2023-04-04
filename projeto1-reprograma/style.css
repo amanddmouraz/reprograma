@@ -1,0 +1,62 @@
+body{
+    margin: 0 auto;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    background-color: #080808;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    text-decoration:none;
+    float:left;
+    width:100%;
+    display:flex;
+    line-height: 20px
+
+}
+nav a {
+    text-decoration: none;
+    color:hwb(0 90% 4%);
+
+}
+
+nav h2 {
+    padding: 20px 20px 20px 20px;
+}
+
+header {
+    text-align: center;
+    color: white;
+    padding: 50px;   
+}
+
+#criolo {
+    border-radius: 200px;
+}
+
+section{
+    color: aliceblue;
+}
+.minibio{
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    word-break:keep-all;
+    word-wrap: break-word;
+}
+
+
+.premios{
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+footer{
+    color: aliceblue;
+    padding: 50px;
+    text-align: center;
+}
